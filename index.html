@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Pink Archive</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #fff9fb;
+      color: #3d2932;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 55px 20px 35px;
+      border-bottom: 1px solid #ead9df;
+    }
+
+    .small-title {
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #a87889;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: clamp(45px, 9vw, 90px);
+      font-weight: normal;
+      letter-spacing: -3px;
+      color: #b85c78;
+    }
+
+    .tagline {
+      margin-top: 12px;
+      font-style: italic;
+      color: #80616c;
+      font-size: 17px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 18px;
+      border-bottom: 1px solid #ead9df;
+      background: #ffffff;
+    }
+
+    nav a {
+      color: #49343c;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    nav a:hover {
+      color: #c45e7d;
+    }
+
+    .hero {
+      max-width: 1100px;
+      margin: 55px auto;
+      padding: 0 25px;
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 45px;
+      align-items: center;
+    }
+
+    .hero-text h2 {
+      font-size: clamp(38px, 6vw, 65px);
+      font-weight: normal;
+      line-height: 1.05;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      color: #715864;
+      max-width: 500px;
+      font-size: 17px;
+    }
+
+    .hero-box {
+      min-height: 360px;
+      background: #f4dce5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #a04f69;
+      font-style: italic;
+      font-size: 20px;
+    }
+
+    .section {
+      max-width: 1100px;
+      margin: 80px auto;
+      padding: 0 25px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .section-title span {
+      display: block;
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #a87889;
+      margin-bottom: 8px;
+    }
+
+    .section-title h2 {
+      font-size: 38px;
+      font-weight: normal;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #ead9df;
+      padding: 28px;
+      min-height: 190px;
+    }
+
+    .card small {
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #b56b82;
+      font-size: 9px;
+    }
+
+    .card h3 {
+      font-size: 25px;
+      font-weight: normal;
+      margin: 12px 0;
+    }
+
+    .card p {
+      color: #79616b;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 50px 20px;
+      margin-top: 90px;
+      border-top: 1px solid #ead9df;
+      color: #8d6b77;
+      font-style: italic;
+    }
+
+    @media (max-width: 750px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        gap: 15px;
+      }
+
+      .hero-box {
+        min-height: 250px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="small-title">Welcome to my little archive</div>
+
+    <h1>The Pink Archive</h1>
+
+    <p class="tagline">
+      fashion, films, books, music & little things I love ♡
+    </p>
+  </header>
+
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="diary.html">Diary</a>
+    <a href="fashion.html">Fashion</a>
+    <a href="screen.html">Screen</a>
+    <a href="books.html">Books</a>
+    <a href="music.html">Music</a>
+    <a href="autumn.html">Autumn</a>
+    <a href="about.html">About</a>
+  </nav>
+
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-text">
+        <div class="small-title">The Pink Archive</div>
+
+        <h2>
+          A little corner<br>
+          of my world.
+        </h2>
+
+        <p>
+          Welcome to my personal archive — a collection of
+          things I love, things I'm watching, books I'm reading,
+          outfits I'm dreaming about, music I'm listening to,
+          and little moments worth remembering.
+        </p>
+      </div>
+
+      <div class="hero-box">
+        your photo goes here ♡
+      </div>
+
+    </section>
+
+
+    <section class="section">
+
+      <div class="section-title">
+        <span>From the archive</span>
+        <h2>Latest little things</h2>
+      </div>
+
+
+      <div class="cards">
+
+        <div class="card">
+          <small>Screen</small>
+          <h3>Currently Watching</h3>
+          <p>
+            The shows and movies currently living rent-free
+            in my head.
+          </p>
+        </div>
+
+
+        <div class="card">
+          <small>Books</small>
+          <h3>Currently Reading</h3>
+          <p>
+            Books, favorite authors, and little literary obsessions.
+          </p>
+        </div>
+
+
+        <div class="card">
+          <small>Fashion</small>
+          <h3>The Fashion Edit</h3>
+          <p>
+            Dresses, heels, Vogue inspiration and pretty things.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="section">
+
+      <div class="section-title">
+        <span>My favorites</span>
+        <h2>A few things I love</h2>
+      </div>
+
+
+      <div class="cards">
+
+        <div class="card">
+          <small>Autumn</small>
+          <h3>Autumn Diaries</h3>
+          <p>
+            Cozy days, caramel, cold weather and everything autumn.
+          </p>
+        </div>
+
+
+        <div class="card">
+          <small>Music</small>
+          <h3>Playlist of the Week</h3>
+          <p>
+            Songs that match the current chapter of my life.
+          </p>
+        </div>
+
+
+        <div class="card">
+          <small>Diary</small>
+          <h3>My Little Diary</h3>
+          <p>
+            Thoughts, memories, dreams and things I don't want to forget.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    Made with love ♡ The Pink Archive
+  </footer>
+
+</body>
+</html>
